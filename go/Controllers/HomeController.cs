@@ -14,6 +14,24 @@ namespace go.Controllers
             return View();
         }
 
+        public ActionResult login()
+        {
+            ViewBag.login = "login";
+            return View();
+        }
+
+        public ActionResult menu()
+        {
+            ViewBag.login = "memu";
+            return View();
+        }
+
+        public ActionResult config()
+        {
+            ViewBag.config = "config";
+            return View();
+        }
+
         public ActionResult Board()
         {
             ViewBag.board = "board";
