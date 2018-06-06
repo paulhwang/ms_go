@@ -28,21 +28,21 @@ namespace go.Controllers
             return View();
         }
 
-        public ActionResult menu()
+        public ActionResult Menu()
         {
-            ViewBag.login = "memu";
+            ViewBag.menu = "Menu";
             return View();
         }
 
         public ActionResult Board()
         {
-            ViewBag.board = "board";
+            ViewBag.board = "Board";
             return View();
         }
 
-        public ActionResult config()
+        public ActionResult Config()
         {
-            ViewBag.config = "config";
+            ViewBag.config = "Config";
             return View();
         }
     }
