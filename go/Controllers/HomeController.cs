@@ -14,6 +14,12 @@ namespace go.Controllers
             return View();
         }
 
+        public ActionResult Board()
+        {
+            ViewBag.board = "board";
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
