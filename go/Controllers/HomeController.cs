@@ -10,6 +10,7 @@ namespace go.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.phwang = "phwang";
             return View();
         }
 
