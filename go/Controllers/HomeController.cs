@@ -28,9 +28,9 @@ namespace go.Controllers
             return View();
         }
 
-        public ActionResult Menu()
+        public ActionResult HomeRoot()
         {
-            ViewBag.menu = "Menu";
+            ViewBag.HomeRoot = "HomeRoot";
             return View();
         }
    }

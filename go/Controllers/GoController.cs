@@ -9,11 +9,6 @@ namespace go.Controllers
     public class GoController : Controller
     {
         // GET: Go
-        public ActionResult Index()
-        {
-            return View();
-        }
-
         public ActionResult GoRoot()
         {
             return View();
