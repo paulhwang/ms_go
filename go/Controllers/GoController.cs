@@ -13,5 +13,11 @@ namespace go.Controllers
         {
             return View();
         }
+
+        public ActionResult GoRoot()
+        {
+            return View();
+        }
+
     }
 }
