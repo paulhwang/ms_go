@@ -3,9 +3,37 @@
     ViewBag.Title = "AccountSignUp";
 }
 
-<h2>AccountSignUp</h2>
-<p>User name</p>
-<p>password</p>
-<p>email</p>
-<p><a  class="btn btn-primary btn-lg">Sign up &raquo;</a></p>
+<body>
+    <h2>Account Sign Up</h2>
 
+    <section class="login_section">
+        <p>
+            Name:
+            <input type="text"
+                   class="login_name"
+                   placeholder="Enter your name">
+        </p>
+
+        <p>
+            Password:
+            <input type="text"
+                   class="login_password"
+                   placeholder="Enter your password">
+        </p>
+
+        <p>
+            email:
+            <input type="text"
+                   class="login_email"
+                   placeholder="Enter your email">
+        </p>
+
+        <button class="login_button">
+            Sign up
+        </button>
+
+        <p>
+            <a href="http://localhost:54642/Home/HomeRoot" class="btn btn-primary btn-lg">Sign up &raquo;</a>
+        </p>
+    </section>
+</body>
