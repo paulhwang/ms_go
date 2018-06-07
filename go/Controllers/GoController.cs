@@ -19,5 +19,15 @@ namespace go.Controllers
             return View();
         }
 
+        public ActionResult GoPlay()
+        {
+            return View();
+        }
+
+        public ActionResult GoSetup()
+        {
+            return View();
+        }
+
     }
 }
