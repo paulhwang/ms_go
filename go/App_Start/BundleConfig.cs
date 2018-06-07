@@ -29,10 +29,10 @@ namespace go
                       "~/Scripts/phwang/phwang_ajax_class.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/account_sign_in_js").Include(
-                      "~/Scripts/Account/AccountSignIn.js"));
+                      "~/Scripts/Account/account_sign_in.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/account_sign_up_js").Include(
-                      "~/Scripts/Account/AccountSignUp.js"));
+                      "~/Scripts/Account/account_sign_up.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
