@@ -183,6 +183,10 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\phwang\phwang_ajax_class.js" />
+    <Content Include="Scripts\phwang\phwang_class.js" />
+    <Content Include="Scripts\phwang\phwang_link_class.js" />
+    <Content Include="Scripts\phwang\phwang_session_class.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

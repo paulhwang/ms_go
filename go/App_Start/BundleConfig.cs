@@ -22,6 +22,12 @@ namespace go
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/phwang_js").Include(
+                      "~/Scripts/phwang/phwang_class.js",
+                      "~/Scripts/phwang/phwang_link_class.js",
+                      "~/Scripts/phwang/phwang_session_class.js",
+                      "~/Scripts/phwang/phwang_ajax_class.js"));
+
             bundles.Add(new ScriptBundle("~/bundles/AccountSignInJs").Include(
                       "~/Scripts/Account/AccountSignIn.js"));
 
