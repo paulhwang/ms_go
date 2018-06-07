@@ -22,6 +22,12 @@ namespace go
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/AccountSignInJs").Include(
+                      "~/Scripts/Account/AccountSignIn.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/AccountSignUpJs").Include(
+                      "~/Scripts/Account/AccountSignUp.js"));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
