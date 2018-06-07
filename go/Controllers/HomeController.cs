@@ -33,17 +33,5 @@ namespace go.Controllers
             ViewBag.menu = "Menu";
             return View();
         }
-
-        public ActionResult Board()
-        {
-            ViewBag.board = "Board";
-            return View();
-        }
-
-        public ActionResult Config()
-        {
-            ViewBag.config = "Config";
-            return View();
-        }
-    }
+   }
 }
